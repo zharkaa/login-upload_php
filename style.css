@@ -1,0 +1,127 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #b0cffb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+form {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    /* color: white; */
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    /* color: #fff; */
+}
+
+a {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover {
+    opacity: .7;
+}
+
+.logged-user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.about p{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 20px;
+    /* margin-bottom: 100px; */
+}
+
+
+.klmpk {
+    margin-bottom: 25px;
+}
+
+/* 
+.nim {
+    margin-top: 46px;
+    margin-left: 75px;
+} */
+
+.ctn-upload {
+background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+}
